@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Style.css">
+    <head> 
+        <title>IMC</title>
+    </head>
+        <body>
+            <h1>IMC</h1>
+
+        <script type= "text/javascript">
+
+        var peso = 70;
+        var altura = 1.80;
+        var imc = peso / (altura*altura);
+
+        document. write ("O seu IMC e : ", imc);
+
+        if (imc < 18.5){
+                document.write (" Peso Baixo");
+        }else if(imc <= 24.9){
+                document.write (" Peso Normal");
+        }else if(imc <= 29.9){
+                document.write (" Obesidade");
+        }else if(imc <= 39.9){
+                document.write (" Obesidade Severa");
+        }else{
+                document.write (" Obesidade Morbida");
+        }
+
+
+        </script>    
+        </body>
+</html>
